@@ -1,0 +1,12 @@
+.center {
+    padding: 35% 0;
+}
+
+@font-face {	
+    src: url("../webfonts/Staatliches-Regular.ttf");
+    font-family: MyWebFont;
+}
+
+.hive-font {
+    font-family: MyWebFont, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
