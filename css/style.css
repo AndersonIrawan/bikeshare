@@ -3,10 +3,22 @@
 }
 
 @font-face {	
-    src: url("../webfonts/Staatliches-Regular.ttf");
-    font-family: MyWebFont;
+    src: url("../webfonts/Montserrat-SemiBold.ttf");
+    font-family: Montserrat;
 }
 
 .hive-font {
     font-family: MyWebFont, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.montserrat {
+    font-family: Montserrat, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-picture {
+    max-width: 50px;
+}
+
+.vertical-center {
+    padding: 40px 0;
+  }

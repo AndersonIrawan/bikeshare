@@ -16,84 +16,98 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">B - Hive</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Plan Trip</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-light" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
     <!-- Main -->
     
-    <div class="container-fluid bg-warning">
+    <div class="container-fluid">
+
         <div class="row">
-            <div class="col-6">
-                <img src="logo.png" class="float-left img-fluid">
-            </div>
-            <div class="col-6">
-                    <h1 class="display-1 center hive-font">B - Hive</h1>         
-            </div>
+          <div class="col-6 offset-3 pt-1">
+            <img src="logo-title.png" class="img-fluid">
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-6 offset-3">
+            <button type="button" class="btn btn-dark text-warning hive-font btn-lg fs-3">Find a Bike</button> 
+          </div>
+        </div>          
+
     </div>
 
     <div class="container-fluid">
+
       <div class="row">
           
-          <div class="col-6 text-center">
-                  <p class="fs-1 fw-bolder text-right center hive-font">Catch our Hives all around the city!</p>         
+          <div class="col-6 pt-3">
+            <p class="fs-1 fw-bolder text-right montserrat">Catch our Hives all around the city!</p>         
           </div>
-          <div class="col-6">
-            <img src="bikestand.png" class="float-left img-fluid">
+          <div class="col-6 pt-1">
+            <img src="bikestand.png" class="img-fluid">
         </div>
-      </div>
 
       </div>
 
-    <div class="container-fluid bg-warning">
+    </div>
+
+    <div class="container-fluid">
           <div class="row">
               <div class="col-12">
                       <br><br>
-                      <p class="display-3 fw-bolder text-center hive-font">FIND BIKE</p>         
+                      <p class="display-3 fw-bolder text-center hive-font">FIND A BIKE</p>         
               </div>
               <div class="row">
-          
-                <div class="col"></div>
 
-                <div class="col-4 text-center">
-                        <button type="button" class="btn btn-dark text-center"><p class="fs-2 text-right text-warning hive-font">Nearest Hive</p></button>         
+                <div class="col-6 text-center">
+                  <button type="button" class="btn btn-dark text-warning hive-font btn-lg fs-4">Nearest Hive</button>        
                 </div>
 
-                <div class="col"></div>
-
-                <div class="col-4 text-center">
-                        <button type="button" class="btn btn-dark text-center"><p class="fs-2 text-right text-warning hive-font">Locate Hive</p></button>    
+                <div class="col-6 text-center">
+                  <button type="button" class="btn btn-dark text-warning hive-font btn-lg fs-4">Locate Hive</button>     
                 </div>
-
-                <div class="col"></div>
 
           </div>
 
           <div class="row">
             <div class="col"></div>
-            <div class="col-6">
-              <img src="bikestand.png" class="float-left img-fluid">
-            </div>
+            <div class="col-6 text-center">
+ 
+              </div>
             <div class="col"></div>
           </div>
       </div>
